@@ -7,7 +7,6 @@ DBMS에서 동시성 제어(concurrency control)를 학습하기 위해 필요�
 다중 사용자 환경을 지원하는 DBMS의 경우, 반드시 지원해야 하는 기능이고,
 다중 사용자 환경에서 둘 이상의 트랜잭션이 동시에 수행될 때, 일관성을 해치지 않도록 트랜잭션의 데이터를 접근 제어 해야합니다.
 
-
 # schedules과 serializability
 
 DB에서 concurrency control이 트랜잭션의 isolation을 보장하기 위해 serializability 개념을 사용을 합니다.
